@@ -3,9 +3,9 @@ public static void main(String[] args) {
 int a = Integer.parseInt(args[0]);
 int b  = Integer.parseInt(args[1]);
 
-int firstNum = (int)(Math.random()*(b-a))+a;
-int secondNum =(int)(Math.random()*(b-a))+a;
-int thirdNum =(int)(Math.random()*(b-a))+a;
+int firstNum = (int)(Math.random()*(b-a)+1)+a;
+int secondNum =(int)(Math.random()*(b-a)+1)+a;
+int thirdNum =(int)(Math.random()*(b-a)+1)+a;
 int minNum= Math.min(firstNum,Math.min(secondNum,thirdNum));
 
 
