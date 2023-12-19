@@ -16,7 +16,6 @@ System.out.println(thirdNum);
 
 System.out.println("The minimal generated number was "+ minNum);
 
-System.out.println("The minimal generated number was "+ minNum);
 
 
 
